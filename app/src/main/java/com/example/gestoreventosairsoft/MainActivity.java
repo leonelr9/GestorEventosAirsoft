@@ -20,4 +20,7 @@ public class MainActivity extends AppCompatActivity {
     public void mostraMensagemJogador(View view) {
         Toast.makeText(this, "Vai para a pagina de Jogadores", Toast.LENGTH_LONG).show();
     }
+    public void mostraMensagemArmas(View view) {
+        Toast.makeText(this, "Vai para a pagina de Armas", Toast.LENGTH_LONG).show();
+    }
 }

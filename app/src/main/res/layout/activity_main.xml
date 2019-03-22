@@ -16,17 +16,18 @@
         android:text="Eventos" />
 
     <Button
-        android:id="@+id/Jogador"
+        android:id="@+id/Jogadores"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:onClick="mostraMensagemJogador"
-        android:text="Jogador" />
+        android:text="Jogadores" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/Armas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:text="Button" />
+        android:onClick="mostraMensagemArmas"
+        android:text="Armas" />
 </LinearLayout>
