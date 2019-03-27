@@ -4,4 +4,7 @@
     <string name="armas">Armas</string>
     <string name="eventos">Eventos</string>
     <string name="title_activity_jogador">Jogador</string>
+    <string name="criar_jogador">Criar Jogador</string>
+    <string name="ver_jogadores">Ver Jogadores</string>
+    <string name="edita_jogador">Edita Jogador</string>
 </resources>
