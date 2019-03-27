@@ -1,6 +1,5 @@
 package com.example.gestoreventosairsoft;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -19,8 +18,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void mostraMensagemJogador(View view) {
-        Intent intent = new Intent(this, Jogador.class);
-        startActivity(intent);
+        Toast.makeText(this, "Vai para a pagina de Jogadores", Toast.LENGTH_LONG).show();
     }
     public void mostraMensagemArmas(View view) {
         Toast.makeText(this, "Vai para a pagina de Armas", Toast.LENGTH_LONG).show();
