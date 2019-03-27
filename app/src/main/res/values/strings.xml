@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <string name="app_name">Gestor Eventos Airsoft</string>
     <string name="jogadores">Jogadores</string>
     <string name="armas">Armas</string>
@@ -10,6 +11,9 @@
     <string name="criar_jogador">Criar Jogador</string>
     <string name="ver_jogadores">Ver Jogadores</string>
     <string name="edita_jogador">Edita Jogador</string>
+=======
+    <string name="app_name">GestorEventosAirsoft</string>
+>>>>>>> parent of 54afc55... Criação de butões e mensagem sobre o que iram fazer.
 =======
     <string name="app_name">GestorEventosAirsoft</string>
 >>>>>>> parent of 54afc55... Criação de butões e mensagem sobre o que iram fazer.
