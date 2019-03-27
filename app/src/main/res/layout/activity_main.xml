@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:onClick="mostraMensagemEventos"
-        android:text="@string/eventos" />
+        android:text="Eventos" />
 
     <Button
         android:id="@+id/Jogadores"
@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:onClick="mostraMensagemJogador"
-        android:text="@string/jogadores" />
+        android:text="Jogadores" />
 
     <Button
         android:id="@+id/Armas"
@@ -29,5 +29,5 @@
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:onClick="mostraMensagemArmas"
-        android:text="@string/armas" />
+        android:text="Armas" />
 </LinearLayout>
