@@ -1,8 +1,5 @@
 <resources>
     <string name="app_name">Gestor Eventos Airsoft</string>
-    <string name="jogadores">Jogadores</string>
-    <string name="armas">Armas</string>
-    <string name="eventos">Eventos</string>
     <string name="eventos">Eventos</string>
     <string name="jogadores">Jogadores</string>
     <string name="armas">Armas</string>
