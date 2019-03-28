@@ -58,11 +58,13 @@
         android:id="@+id/buttonGuardar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="Guardar"
         android:text="@string/guardar" />
 
     <Button
         android:id="@+id/buttonCancelar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="Cancelar"
         android:text="@string/cancelar" />
 </LinearLayout>
