@@ -53,4 +53,16 @@
         android:hint="@string/numero_de_socio"
         android:inputType="number"
         android:autofillHints="" />
+
+    <Button
+        android:id="@+id/buttonGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/guardar" />
+
+    <Button
+        android:id="@+id/buttonCancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cancelar" />
 </LinearLayout>

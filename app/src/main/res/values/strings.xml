@@ -12,4 +12,6 @@
     <string name="data_nascimento">Data Nascimento</string>
     <string name="grupo_sanguineo">Grupo Sanguineo</string>
     <string name="numero_de_socio">Numero de socio</string>
+    <string name="guardar">Guardar</string>
+    <string name="cancelar">Cancelar</string>
 </resources>
