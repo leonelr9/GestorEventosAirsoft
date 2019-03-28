@@ -3,15 +3,14 @@
     <string name="eventos">Eventos</string>
     <string name="jogadores">Jogadores</string>
     <string name="armas">Armas</string>
-    <string name="title_activity_jogador">JogadorActivity</string>
+    <string name="title_activity_jogador">Jogador</string>
     <string name="criar_jogador">Criar Jogador</string>
     <string name="ver_jogador">Ver Jogador</string>
-    <string name="title_activity_criar_jogador">CriarJogadorActivity</string>
+    <string name="title_activity_criar_jogador">Criar Jogador</string>
     <string name="nome">Nome</string>
     <string name="contacto">Contacto</string>
     <string name="data_nascimento">Data Nascimento</string>
     <string name="grupo_sanguineo">Grupo Sanguineo</string>
-    <string name="numero_de_socio">Numero de socio</string>
     <string name="guardar">Guardar</string>
     <string name="cancelar">Cancelar</string>
     <string name="nome_requerido">Introduza um nome</string>
@@ -19,4 +18,5 @@
     <string name="data_requerida">Insira a data de nascimento</string>
     <string name="grupo_sanguineo_requerido">Insira o seu grupo sanguineo</string>
     <string name="numsocio_requerido">Insira o numero de associado</string>
+    <string name="numero_de_socio">Numero de Socio</string>
 </resources>
