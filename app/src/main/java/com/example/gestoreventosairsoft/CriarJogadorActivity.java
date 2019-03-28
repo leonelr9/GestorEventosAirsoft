@@ -64,7 +64,7 @@ public class CriarJogadorActivity extends AppCompatActivity {
             return;
         }
 
-        Toast.makeText(this, "Informação Guardada", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, getString(R.string.dados_guardados), Toast.LENGTH_LONG).show();
         finish();
     }
 

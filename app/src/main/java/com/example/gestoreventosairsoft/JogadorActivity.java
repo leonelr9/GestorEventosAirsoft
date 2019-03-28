@@ -26,7 +26,7 @@ public class JogadorActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void verJogadores(View view) {
-        Toast.makeText(this, "Ver jogadores", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, getString(R.string.ver_jogadores), Toast.LENGTH_LONG).show();
     }
 
 }

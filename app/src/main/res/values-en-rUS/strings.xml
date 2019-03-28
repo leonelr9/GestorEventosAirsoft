@@ -20,4 +20,8 @@
     <string name="data_requerida">" Please enter a birth date"</string>
     <string name="grupo_sanguineo_requerido">" Please enter a blood group"</string>
     <string name="numsocio_requerido">" Please enter a number of member"</string>
+    <string name="ver_jogadores">Go to the page to view existing players</string>
+    <string name="mensagem_evento">Go to the page events</string>
+    <string name="mensagem_armas">Go to the page guns</string>
+    <string name="dados_guardados">Data saved successfully</string>
 </resources>
