@@ -4,4 +4,6 @@
     <string name="jogadores">Jogadores</string>
     <string name="armas">Armas</string>
     <string name="title_activity_jogador">JogadorActivity</string>
+    <string name="criar_jogador">Criar Jogador</string>
+    <string name="ver_jogador">Ver Jogador</string>
 </resources>
