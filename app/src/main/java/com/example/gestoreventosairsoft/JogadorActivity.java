@@ -1,11 +1,13 @@
 package com.example.gestoreventosairsoft;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.Toast;
 
 public class JogadorActivity extends AppCompatActivity {
 
@@ -18,6 +20,13 @@ public class JogadorActivity extends AppCompatActivity {
 
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+    public void criarJogador(View view) {
+        Intent intent = new Intent(this, CriarJogadorActivity.class);
+        startActivity(intent);
+    }
+    public void verJogadores(View view) {
+        Toast.makeText(this, "Ver jogadores", Toast.LENGTH_LONG).show();
     }
 
 }

@@ -14,6 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
+        android:onClick="criarJogador"
         android:text="@string/criar_jogador" />
 
     <Button
@@ -21,6 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
+        android:onClick="verJogadores"
         android:text="@string/ver_jogador" />
 
 </LinearLayout>
