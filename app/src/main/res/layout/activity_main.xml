@@ -11,7 +11,7 @@
         android:id="@+id/Eventos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
+        android:layout_margin="@dimen/all_margin"
         android:onClick="mostraMensagemEventos"
         android:text="@string/eventos" />
 
@@ -19,7 +19,7 @@
         android:id="@+id/Jogadores"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
+        android:layout_margin="@dimen/all_margin"
         android:onClick="mostraMensagemJogador"
         android:text="@string/jogadores" />
 
@@ -27,7 +27,7 @@
         android:id="@+id/Armas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
+        android:layout_margin="@dimen/all_margin"
         android:onClick="mostraMensagemArmas"
         android:text="@string/armas" />
 </LinearLayout>

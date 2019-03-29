@@ -13,51 +13,57 @@
         android:id="@+id/editTextNome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="@dimen/all_margin"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/nome"
-        android:inputType="textPersonName"
-        android:autofillHints="" />
+        android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/editTextContacto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="@dimen/all_margin"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/contacto"
-        android:inputType="phone"
-        android:autofillHints="" />
+        android:inputType="phone" />
 
     <EditText
         android:id="@+id/editTextDataNascimento"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="@dimen/all_margin"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/data_nascimento"
-        android:inputType="date"
-        android:autofillHints="" />
+        android:inputType="date" />
 
     <EditText
         android:id="@+id/editTextGrupoSanguineo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="@dimen/all_margin"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/grupo_sanguineo"
-        android:inputType="textPersonName"
-        android:autofillHints="" />
+        android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/editTextNumSocio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="@dimen/all_margin"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/numero_de_socio"
-        android:inputType="number"
-        android:autofillHints="" />
+        android:inputType="number" />
 
     <Button
         android:id="@+id/buttonGuardar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="@dimen/all_margin"
         android:onClick="Guardar"
         android:text="@string/guardar" />
 
@@ -65,6 +71,7 @@
         android:id="@+id/buttonCancelar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="@dimen/all_margin"
         android:onClick="Cancelar"
         android:text="@string/cancelar" />
 </LinearLayout>

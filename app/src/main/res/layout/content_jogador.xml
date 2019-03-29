@@ -13,7 +13,7 @@
         android:id="@+id/buttonCriarJogador"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
+        android:layout_margin="@dimen/all_margin"
         android:onClick="criarJogador"
         android:text="@string/criar_jogador" />
 
@@ -21,7 +21,7 @@
         android:id="@+id/buttonVerJogador"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
+        android:layout_margin="@dimen/all_margin"
         android:onClick="verJogadores"
         android:text="@string/ver_jogador" />
 
