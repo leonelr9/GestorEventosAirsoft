@@ -14,13 +14,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void mostraMensagemEventos(View view) {
-        Toast.makeText(this, "Vai para a pagina de Eventos.", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, getString(R.string.mensagem_evento), Toast.LENGTH_LONG).show();
     }
 
     public void mostraMensagemJogador(View view) {
-        Toast.makeText(this, "Vai para a pagina de Jogadores", Toast.LENGTH_LONG).show();
+        Intent intent = new Intent(this, JogadorActivity.class);
+        startActivity(intent);
     }
     public void mostraMensagemArmas(View view) {
-        Toast.makeText(this, "Vai para a pagina de Armas", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, getString(R.string.mensagem_armas), Toast.LENGTH_LONG).show();
     }
 }

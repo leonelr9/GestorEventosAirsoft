@@ -1,9 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".Jogador"
-    tools:showIn="@layout/activity_jogador"/>
+    tools:context=".JogadorActivity"
+    tools:showIn="@layout/activity_jogador">
+
+    <Button
+        android:id="@+id/buttonCriarJogador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:onClick="criarJogador"
+        android:text="@string/criar_jogador" />
+
+    <Button
+        android:id="@+id/buttonVerJogador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:onClick="verJogadores"
+        android:text="@string/ver_jogador" />
+
+</LinearLayout>

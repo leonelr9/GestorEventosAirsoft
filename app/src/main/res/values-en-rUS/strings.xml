@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Airsoft Events Manager</string>
+    <string name="eventos">Events</string>
+    <string name="jogadores">Player\'s</string>
+    <string name="armas">Guns</string>
+    <string name="title_activity_jogador">Player</string>
+    <string name="criar_jogador">Create player</string>
+    <string name="ver_jogador">View player</string>
+    <string name="title_activity_criar_jogador">Create player</string>
+    <string name="nome">Name</string>
+    <string name="contacto">Contact</string>
+    <string name="data_nascimento">Birth date</string>
+    <string name="grupo_sanguineo">" Blood Group"</string>
+    <string name="numero_de_socio">" Number of member"</string>
+    <string name="guardar">Save</string>
+    <string name="cancelar">Cancel</string>
+    <string name="nome_requerido">" Please enter a name"</string>
+    <string name="contacto_requerido">" Please enter a contact"</string>
+    <string name="data_requerida">" Please enter a birth date"</string>
+    <string name="grupo_sanguineo_requerido">" Please enter a blood group"</string>
+    <string name="numsocio_requerido">" Please enter a number of member"</string>
+    <string name="ver_jogadores">Go to the page to view existing players</string>
+    <string name="mensagem_evento">Go to the page events</string>
+    <string name="mensagem_armas">Go to the page guns</string>
+    <string name="dados_guardados">Data saved successfully</string>
+</resources>
