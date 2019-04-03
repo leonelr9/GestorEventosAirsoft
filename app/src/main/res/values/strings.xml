@@ -24,4 +24,5 @@
     <string name="ver_jogadores">Vai para a pagina para visualizar os jogadores existentes</string>
     <string name="dados_guardados">Dados guardados com sucesso</string>
     <string name="editar_jogador">Editar Jogador</string>
+    <string name="title_activity_editar_jogador">Editar Jogador</string>
 </resources>
