@@ -24,4 +24,5 @@
     <string name="mensagem_evento">Go to the page events</string>
     <string name="mensagem_armas">Go to the page guns</string>
     <string name="dados_guardados">Data saved successfully</string>
+    <string name="editar_jogador">Edit player</string>
 </resources>

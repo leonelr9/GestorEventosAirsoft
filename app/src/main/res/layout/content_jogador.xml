@@ -26,9 +26,9 @@
         android:text="@string/ver_jogador" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonEditar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="@string/editar_jogador" />
 
 </LinearLayout>
