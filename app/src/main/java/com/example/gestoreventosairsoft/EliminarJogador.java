@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.Date;
 
@@ -49,5 +50,15 @@ public class EliminarJogador extends AppCompatActivity {
 
         TextView textViewNumSocio = (TextView) findViewById(R.id.textViewNumSocio);
         textViewNumSocio.setText(numsocio);
+    }
+
+    public void CancelarJogador(View view) {
+        finish();
+    }
+
+
+    public void Apagar(View view){
+        Toast.makeText(this, getString(R.string.dados_guardados), Toast.LENGTH_LONG).show();
+        finish();
     }
 }
