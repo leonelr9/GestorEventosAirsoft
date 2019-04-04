@@ -29,4 +29,8 @@ public class JogadorActivity extends AppCompatActivity {
         Toast.makeText(this, getString(R.string.ver_jogadores), Toast.LENGTH_LONG).show();
     }
 
+    public void editaJogador(View view) {
+        Intent intent = new Intent(this, EditarJogador.class);
+        startActivity(intent);
+    }
 }

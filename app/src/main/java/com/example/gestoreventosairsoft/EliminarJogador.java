@@ -30,23 +30,24 @@ public class EliminarJogador extends AppCompatActivity {
         Intent intent = getIntent();
 
         String nome = intent.getStringExtra(DefinicoesApp.NOME);
-        TextView textViewNome = findViewById(R.id.textViewNome);
+        String contacto = intent.getStringExtra(DefinicoesApp.CONTACTO);
+        String datanascimento = intent.getStringExtra(DefinicoesApp.DATANASCIMENTO);
+        String gruposanguineo = intent.getStringExtra(DefinicoesApp.GRUPOSANGUINEO);
+        String numsocio = intent.getStringExtra(DefinicoesApp.NUMSOCIO);
+
+        TextView textViewNome = (TextView) findViewById(R.id.textViewNome);
         textViewNome.setText(nome);
 
-        String contato = intent.getStringExtra(DefinicoesApp.CONTACTO);
-        TextView textViewContacto = findViewById(R.id.textViewNome);
-        textViewContacto.setText(contato);
+        TextView textViewContacto = (TextView) findViewById(R.id.textViewContacto);
+        textViewContacto.setText(contacto);
 
-        String datanascimento = intent.getStringExtra(DefinicoesApp.DATANASCIMENTO);
-        TextView textViewdatanascimento = findViewById(R.id.textViewNome);
-        textViewdatanascimento.setText(datanascimento);
+        TextView textViewDataNascimento = (TextView) findViewById(R.id.textViewDataNascimento);
+        textViewDataNascimento.setText(datanascimento);
 
-        String gruposanguineo = intent.getStringExtra(DefinicoesApp.GRUPOSANGUINEO);
-        TextView textViewgruposanguineo = findViewById(R.id.textViewNome);
-        textViewgruposanguineo.setText(gruposanguineo);
+        TextView textViewGrupoSanguineo = (TextView) findViewById(R.id.textViewGrupoSanguineo);
+        textViewGrupoSanguineo.setText(gruposanguineo);
 
-        String numsocio = intent.getStringExtra(DefinicoesApp.NUMSOCIO);
-        TextView textViewnumsocio = findViewById(R.id.textViewNome);
-        textViewnumsocio.setText(numsocio);
+        TextView textViewNumSocio = (TextView) findViewById(R.id.textViewNumSocio);
+        textViewNumSocio.setText(numsocio);
     }
 }

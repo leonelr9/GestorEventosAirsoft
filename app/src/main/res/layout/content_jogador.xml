@@ -29,6 +29,7 @@
         android:id="@+id/buttonEditar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="editaJogador"
         android:text="@string/editar_jogador" />
 
 </LinearLayout>
