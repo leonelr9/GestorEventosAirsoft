@@ -79,5 +79,10 @@ public class EditarJogador extends AppCompatActivity {
         finish();
     }
 
+    public void eliminaJogador(View view) {
+        Intent intent = new Intent(this, EliminarJogador.class);
+        startActivity(intent);
+    }
+
 
 }
