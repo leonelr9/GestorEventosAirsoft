@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".EliminarJogador"
+            android:label="@string/title_activity_eliminar_jogador"
+            android:parentActivityName=".EditarJogador"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.gestoreventosairsoft.EditarJogador" />
+        </activity>
+        <activity
             android:name=".EditarJogador"
             android:label="@string/title_activity_editar_jogador"
             android:parentActivityName=".JogadorActivity"

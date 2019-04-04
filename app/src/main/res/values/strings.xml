@@ -26,4 +26,5 @@
     <string name="editar_jogador">Editar Jogador</string>
     <string name="title_activity_editar_jogador">Editar Jogador</string>
     <string name="eliminar">Eliminar</string>
+    <string name="title_activity_eliminar_jogador">EliminarJogador</string>
 </resources>
