@@ -1,5 +1,6 @@
 package com.example.gestoreventosairsoft;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -8,6 +9,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import java.util.Date;
 
 public class EditarJogador extends AppCompatActivity {
 
@@ -35,6 +38,14 @@ public class EditarJogador extends AppCompatActivity {
 
         EditText editTextNumSocio = findViewById(R.id.editTextNumSocio);
         String numsocio = editTextNumSocio.getText().toString();
+
+        Intent intent = new Intent(this, EliminarJogador.class);
+        intent.putExtra(DefinicoesApp.NOME, nome);
+        intent.putExtra(DefinicoesApp.CONTACTO, contacto);
+        intent.putExtra(DefinicoesApp.DATANASCIMENTO, datanascimento);
+        intent.putExtra(DefinicoesApp.GRUPOSANGUINEO, gruposanguineo);
+        intent.putExtra(DefinicoesApp.NUMSOCIO, numsocio);
+        startActivity(intent);
 
         //para validar dados:
         if(nome.trim().length() == 0 ){
@@ -67,5 +78,6 @@ public class EditarJogador extends AppCompatActivity {
     public void Cancelar(View view) {
         finish();
     }
+
 
 }

@@ -9,4 +9,53 @@
     tools:context=".EliminarJogador"
     tools:showIn="@layout/activity_eliminar_jogador">
 
+    <TextView
+        android:id="@+id/textViewNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/all_margin"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/nome"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textViewContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/all_margin"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/contacto"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/textViewDataNascimento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/all_margin"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/data_nascimento"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/textViewGrupoSanguineo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/all_margin"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/grupo_sanguineo"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textViewNumSocio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/all_margin"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/numero_de_socio"
+        android:inputType="number" />
 </LinearLayout>
