@@ -8,78 +8,92 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".EditarJogador"
     tools:showIn="@layout/activity_editar_jogador">
-
-    <EditText
-        android:id="@+id/editTextNome"
+    <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/all_margin"
-        android:autofillHints=""
-        android:ems="10"
-        android:hint="@string/nome"
-        android:inputType="textPersonName" />
+        android:layout_height="match_parent">
 
-    <EditText
-        android:id="@+id/editTextContacto"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/all_margin"
-        android:autofillHints=""
-        android:ems="10"
-        android:hint="@string/contacto"
-        android:inputType="phone" />
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/editTextNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nome"
+            android:inputType="textAutoCorrect" />
 
-    <EditText
-        android:id="@+id/editTextDataNascimento"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/all_margin"
-        android:autofillHints=""
-        android:ems="10"
-        android:hint="@string/data_nascimento"
-        android:inputType="date" />
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    <EditText
-        android:id="@+id/editTextGrupoSanguineo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/all_margin"
-        android:autofillHints=""
-        android:ems="10"
-        android:hint="@string/grupo_sanguineo"
-        android:inputType="textPersonName" />
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/editTextContacto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/contacto"
+                android:inputType="phone" />
 
-    <EditText
-        android:id="@+id/editTextNumSocio"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/all_margin"
-        android:autofillHints=""
-        android:ems="10"
-        android:hint="@string/numero_de_socio"
-        android:inputType="number" />
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/buttonGuardar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/all_margin"
-        android:onClick="Guardar"
-        android:text="@string/guardar" />
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/editTextDataNascimento"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/data_nascimento"
+                    android:inputType="date" />
 
-    <Button
-        android:id="@+id/buttonCancelar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/all_margin"
-        android:onClick="Cancelar"
-        android:text="@string/cancelar" />
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/buttonEliminar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/all_margin"
-        android:onClick="eliminaJogador"
-        android:text="@string/eliminar" />
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/editTextGrupoSanguineo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/grupo_sanguineo"
+                        android:inputType="text" />
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/editTextNumSocio"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/numero_de_socio"
+                            android:inputType="number" />
+
+                        <Button
+                            android:id="@+id/buttonGuardar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/all_margin"
+                            android:onClick="Guardar"
+                            android:text="@string/guardar" />
+
+                        <Button
+                            android:id="@+id/buttonCancelar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/all_margin"
+                            android:onClick="Cancelar"
+                            android:text="@string/cancelar" />
+
+                        <Button
+                            android:id="@+id/buttonEliminar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/all_margin"
+                            android:onClick="eliminaJogador"
+                            android:text="@string/eliminar" />
+
+                    </android.support.design.widget.TextInputLayout>
+                </android.support.design.widget.TextInputLayout>
+            </android.support.design.widget.TextInputLayout>
+
+        </android.support.design.widget.TextInputLayout>
+
+    </android.support.design.widget.TextInputLayout>
+
+
 </LinearLayout>
