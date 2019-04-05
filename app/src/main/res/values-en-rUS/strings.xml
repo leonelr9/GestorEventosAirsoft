@@ -25,4 +25,8 @@
     <string name="mensagem_armas">Go to the page guns</string>
     <string name="dados_guardados">Data saved successfully</string>
     <string name="editar_jogador">Edit player</string>
+    <string name="title_activity_editar_jogador">Edit player</string>
+    <string name="eliminar">Delete</string>
+    <string name="title_activity_eliminar_jogador">Delete player</string>
+    <string name="apagar">Delete</string>
 </resources>
